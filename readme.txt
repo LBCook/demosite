@@ -1,0 +1,1 @@
+﻿demoone：是一个springboot项目，test接口返回helloworld。在根目录有Dockerfile文件用于构建镜像
