@@ -1,0 +1,5 @@
+这个项目是一个普通的web项目
+然后web调用test可以获取到helloworld返回
+根目录创建了dockerfile文件用于构建镜像
+可以连接本地的docker或者远程的docker
+然后创建镜像后运行，对应的参数都是可以设置的
