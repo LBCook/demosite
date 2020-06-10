@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.lin</groupId>
+    <artifactId>demodistributiontransaction</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <description>
+        介绍：
+        是一个spring cloud项目，注册在nacso上。
+        consumerone 是一个服务，操作one-mysql的test表，有message和user两个表。
+        consumertwo 是另外一个服务
+
+        服务之间使用Fegin互相调用
+
+        使用Seata提供分布式事务
+
+        nacso和mysql（5.7.30）安装即可：
+
+        mysql（5.7.30）：
+        docker run -it -d -p 3306:3306 --name one-mysql -e MYSQL_ROOT_PASSWORD=123456 mysql:5.7.30
+        docker run -it -d -p 3307:3306 --name one-mysql -e MYSQL_ROOT_PASSWORD=123456 mysql:5.7.30
+
+        nacso 安装：
+        https://nacos.io/zh-cn/docs/quick-start.html
+
+
+    </description>
+
+
+
+
+</project>
